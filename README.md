@@ -1,4 +1,4 @@
-# Asian Arithmetic Option Pricing — Johnson Moment Matching
+# Asian Arithmetic Option Pricing: Johnson Moment Matching
 
 Implementation of the Posner & Milevsky (1998) four-moment state-price density approximation for pricing arithmetic Asian call options. Arithmetic averages of lognormal prices are not themselves lognormal, so standard Black-Scholes has no clean closed form. This project fits a Johnson distribution to the first four moments of the arithmetic average and prices via Gauss-Hermite quadrature.
 
